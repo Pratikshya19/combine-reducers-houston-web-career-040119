@@ -4,11 +4,9 @@ import uuid from 'uuid';
 import { connect } from 'react-redux';
 
 export class AuthorInput extends Component {
-
   state = {
     authorName: '',
   }
-
   handleOnChange = event => {
     this.setState({
       [event.target.name]: event.target.value
